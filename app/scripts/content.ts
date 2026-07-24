@@ -6,7 +6,7 @@ function addDeepWikiButton(): void {
   }
 
   // Get repository main navigation element
-  const navActions = document.querySelector<HTMLUListElement>('ul.pagehead-actions');
+  const navActions = document.querySelector<HTMLUListElement>('ul[data-testid="repo-header-actions"]');
   if (!navActions) {
     return;
   }
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Monitor navigation element addition (only if button doesn't exist)
-    const navActions = document.querySelector<HTMLUListElement>('ul.pagehead-actions');
+    const navActions = document.querySelector<HTMLUListElement>('ul[data-testid="repo-header-actions"]');
     const deepWikiButton = document.querySelector('.deepwiki-button');
     if (navActions && !deepWikiButton) {
       addDeepWikiButton();
