@@ -6,7 +6,7 @@ function addDeepWikiButton(): void {
   }
 
   // Get repository main navigation element
-  const navActions = document.querySelector<HTMLUListElement>('ul[data-testid="repo-header-actions"]');
+  const navActions = document.querySelector<HTMLUListElement>('ul.pagehead-actions, ul[data-testid="repo-header-actions"]');
   if (!navActions) {
     return;
   }
