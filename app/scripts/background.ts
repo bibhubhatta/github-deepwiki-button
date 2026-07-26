@@ -38,13 +38,11 @@ const injectContentToTab = async (tab: chrome.tabs.Tab) => {
   }
 };
 
-// Update extension content for tabs
-chrome.tabs.query({}, async (tabs) => {
-  for (const tabKey in tabs) {
-    const tab = tabs[tabKey];
-
+// Update extension content for tabs the extension has host permission for
+chrome.tabs.query({ url: 'https://github.com/*' }, async (tabs) => {
+  for (const tab of tabs) {
     try {
-      injectContentToTab(tab);
+      await injectContentToTab(tab);
     } catch (e) {
       console.error(e);
     }
