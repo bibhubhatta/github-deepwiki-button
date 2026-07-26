@@ -18,11 +18,12 @@ const injectContentToTab = async (tab: chrome.tabs.Tab) => {
   const cssFiles = manifest.content_scripts?.[0].css ?? [];
   const jsFiles = manifest.content_scripts?.[0].js ?? [];
 
+  // Top frame only: with allFrames, cross-origin iframes in the page
+  // fail the whole call with a host permission error
   if (cssFiles.length > 0) {
     await chrome.scripting.insertCSS({
       target: {
         tabId: tab.id,
-        allFrames: true,
       },
       files: cssFiles,
     });
@@ -31,7 +32,6 @@ const injectContentToTab = async (tab: chrome.tabs.Tab) => {
     await chrome.scripting.executeScript({
       target: {
         tabId: tab.id,
-        allFrames: true,
       },
       files: jsFiles,
     });
