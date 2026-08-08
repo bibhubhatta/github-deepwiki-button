@@ -39,9 +39,12 @@ function addDeepWikiButton(): void {
   // Add icon
   const icon = document.createElement('span');
   icon.className = 'octicon';
-  icon.innerHTML = `
-    <img src="${chrome.runtime.getURL('images/icon-64.png')}" width="16" height="16" alt="DeepWiki">
-  `;
+  const iconImage = document.createElement('img');
+  iconImage.src = chrome.runtime.getURL('images/icon-64.png');
+  iconImage.width = 16;
+  iconImage.height = 16;
+  iconImage.alt = 'DeepWiki';
+  icon.appendChild(iconImage);
 
   // Add text
   const text = document.createTextNode('DeepWiki');
