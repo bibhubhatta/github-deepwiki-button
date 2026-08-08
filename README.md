@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="app/images/icon.png" alt="GitHub DeepWiki Button" width="200" height="auto">
-  <h2>GitHub DeepWiki Button</h2>
+  <img src="app/images/icon.png" alt="DeepWiki Button for GitHub" width="200" height="auto">
+  <h2>DeepWiki Button for GitHub</h2>
   <p>
     <b>A browser extension that adds a DeepWiki button to GitHub repositories</b>
   </p>
@@ -17,9 +17,9 @@
 
 ### Install
 
-- Chrome: [GitHub DeepWiki Button - Chrome Web Store](https://chromewebstore.google.com/detail/github-deepwiki-unofficia/agchcjkheangfiopepndmenabbaopnpp)
-- Firefox: [GitHub DeepWiki Button - Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/github-deepwiki-unofficial/)
-- Edge: [GitHub DeepWiki Button - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/github-deepwiki-unoffici/cofnelnkmdkglinllgllloeelmbggfep)
+- Chrome: [DeepWiki Button for GitHub - Chrome Web Store](https://chromewebstore.google.com/detail/github-deepwiki-unofficia/agchcjkheangfiopepndmenabbaopnpp)
+- Firefox: [DeepWiki Button for GitHub - Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/github-deepwiki-unofficial/)
+- Edge: [DeepWiki Button for GitHub - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/github-deepwiki-unoffici/cofnelnkmdkglinllgllloeelmbggfep)
 
 ### What is DeepWiki?
 
@@ -29,11 +29,11 @@ Just change `github.com` to `deepwiki.com` in any repository URL to access it.
 
 ## 🔒 Privacy Policy
 
-GitHub DeepWiki Button does not collect any data.
+DeepWiki Button for GitHub does not collect any data.
 
-In the future, GitHub DeepWiki Button may add the ability to save user settings on your device, but that data will not be sent to the server.
+In the future, DeepWiki Button for GitHub may add the ability to save user settings on your device, but that data will not be sent to the server.
 
-In addition, the GitHub DeepWiki Button management account will not be transferred to a third party.
+In addition, the DeepWiki Button for GitHub management account will not be transferred to a third party.
 
 If you have any questions or inquiries regarding the privacy policy, please contact koukun0120@gmail.com.
 
