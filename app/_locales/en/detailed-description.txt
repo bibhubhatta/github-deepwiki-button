@@ -13,7 +13,9 @@ This browser extension adds a convenient "DeepWiki" button to GitHub repository 
 4. You'll be redirected to the corresponding DeepWiki page
 
 ⚠️ Note:
-This is an unofficial extension and is not affiliated with GitHub or DeepWiki. It simply provides a convenient way to navigate between GitHub repositories and their corresponding DeepWiki pages.
+This is an unofficial extension and is not affiliated with, endorsed by, or sponsored by GitHub or DeepWiki. It simply provides a convenient way to navigate between GitHub repositories and their corresponding DeepWiki pages.
+
+GitHub is a trademark of GitHub, Inc. DeepWiki is a trademark of Cognition AI, Inc. These trademarks are used only to indicate the services this extension works with.
 
 🔒 Privacy:
 - No data collection
@@ -23,4 +25,4 @@ This is an unofficial extension and is not affiliated with GitHub or DeepWiki. I
 
 💻 The source code is also available, and you can build and install it yourself.
 For more details, please visit:
-https://github.com/yamadashy/github-deepwiki
+https://github.com/yamadashy/github-deepwiki-button
